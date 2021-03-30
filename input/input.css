@@ -1,0 +1,159 @@
+:root{
+    --primary-color: #3B82F6;
+    --grey-200: #E5E7EB;
+    --red: #DC2626;
+    --orange: #F59E0B;
+    --green: #6EE7B7;
+}
+
+.inputs{
+    margin-left: 3.5rem;
+}
+
+.name{
+    display: block;
+    font-size: large;
+    margin: 1rem 0 1rem 0;
+    font-weight: 600;
+    max-width: fit-content;
+    text-decoration: underline;
+}
+
+.input-border{
+    border-radius: 1rem;
+    width: 50vw;
+    margin-bottom: 1rem;
+    border: 1px solid var(--grey-200);
+}
+
+.basic-input{
+    padding: 1rem 1rem;
+    font-size: 20px;
+    z-index: -5;
+    
+}
+
+.basic-input:focus{
+    outline: none;
+    border: 2px solid var(--primary-color)
+}
+
+.ess{
+    border-radius: 0;
+    font-size: 12px;
+}
+
+.ess:focus{
+    border: 2px solid var(--primary-color);
+    outline: none
+}
+
+.ss{
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.ss:focus{
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.ms{
+    border-radius: 0.2rem;
+    font-size: 20px;
+}
+
+.ms:focus{
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.ls{
+    border-radius: 0.3rem;
+    font-size: 24px;
+}
+
+.ls:focus{
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.filled{
+    padding: 1rem 1rem;
+    font-size: 20px;
+    background-color: var(--grey-200);
+}
+
+.filled:focus{
+    background-color: white;
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.flushed{
+    padding: 1rem 1rem 0.5rem 0rem;
+    font-size: 20px;
+    border: 0;
+    border-radius: 0;
+
+    margin-left: 1rem;
+}
+
+.flushed:focus{
+    border-bottom: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.unstyled{
+    padding: 1rem; 
+    font-size: 20px;
+    border: 0;
+}
+
+.unstyled:focus{
+    outline: none;
+}
+
+.gg{
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.gg:focus{
+    outline: none;
+    border: 2px solid var(--green);
+}
+
+.gr{
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.gr:focus{
+    outline: none;
+    border: 2px solid var(--red);
+}
+
+.ob{
+    font-size: 20px;
+    padding: 1rem;
+    border: 2px solid var(--orange);
+}
+
+.ob:focus{
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+
+.rb{
+    font-size: 20px;
+    padding: 1rem;
+    border: 2px solid var(--red);
+}
+
+.rb:focus{
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+
+
