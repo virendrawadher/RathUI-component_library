@@ -1,4 +1,13 @@
-@import "/alert/alert.css";
+@import url(".../avatar/avatar.css");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url(".../alert/alert.css");
+@import url(".../badge/badge.css");
+@import url(".../Button/button.css");
+@import url(".../form/form.css");
+@import url(".../image/image.css");
+@import url(".../input/input.css");
+@import url(".../list/list.css");
+@import url(".../card/card.css");
 
 :root{
     --yellow-400: #FBBF24;
@@ -17,6 +26,7 @@
 body{
     margin-top: 0;
     /* overflow: hidden; */
+    font-family: 'Libre Baskerville', serif;
 }
 
 .nav-root{
@@ -376,7 +386,7 @@ body{
     .nav-social .social-link{
         text-decoration: none;
         padding: 0.5rem;
-        font-size: larger;
+        /* font-size: larger; */
         font-weight: bold;
         color: var(--gray-900);
     }
