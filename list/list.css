@@ -1,0 +1,110 @@
+:root{
+    --primary-color: #9CA3AF;
+    --secondary-color: #374151;
+    --white-grey: #E5E7EB;
+}
+
+.lists{
+    margin-left: 3.5rem;
+}
+
+.name{
+    display: block;
+    font-size: large;
+    margin: 1rem 0 1rem 0;
+    font-weight: 600;
+    max-width: fit-content;
+    /* text-decoration: underline; */
+}
+
+.item{
+    list-style: disc;
+}
+
+.nu , .onlist{
+    margin-top: 5rem;
+}
+
+.olist, .l-list{
+    margin-top: 9rem;
+}
+
+.s-list{
+    margin-top: 2rem;
+}
+
+.nested-order-lists{
+    counter-reset: item;
+    list-style: none;
+}
+
+.order-element::before{
+    content: counter(item)" ";
+    counter-increment: item;
+}
+
+.nested-order-list{
+    counter-reset: subitem;
+    list-style: none;
+}
+
+.nested-order-element::before{
+    content: counter(item)"." counters(subitem, ".")" ";
+    counter-increment: subitem;
+}
+
+.link-list{
+    list-style: none;
+}
+
+.link-list__home a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.link-list__about a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.link-list__jobs a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.link-list__team a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.link-list__home a:hover{
+    color: var(--secondary-color);
+}
+
+.link-list__about a:hover{
+    color: var(--secondary-color);
+}
+
+.link-list__jobs a:hover{
+    color: var(--secondary-color);
+}
+
+.link-list__team a:hover{
+    color: var(--secondary-color);
+}
+
+.lists__stacked{
+    list-style: none;
+    padding-left: 0;
+    max-width: 500px;
+}
+
+.lists__stacked--item{
+    border: 1px solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+}
+
+.lists__stacked--item:hover{
+    background-color: var(--white-grey);
+    cursor: pointer;
+}

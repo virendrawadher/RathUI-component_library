@@ -1,0 +1,102 @@
+
+.images{
+    margin-left: 3.5rem;
+}
+
+.name{
+    display: block;
+    font-size: large;
+    margin: 1rem 0 1rem 0;
+    font-weight: 600;
+    max-width: fit-content;
+    text-decoration: underline;
+}
+
+.image{
+    position: relative;
+    height: 28vw;
+    z-index: -5;
+    width: 62vw;
+    padding-top: 1rem;
+}
+
+.image-carbon{
+    margin-left: 3.5rem;
+    margin-bottom: 5rem;
+}
+
+.image-pp{
+    width: 13vw;
+    height: 13vw;
+    position: absolute;
+    top: 0;
+}
+
+.image-dc{
+    width: 19.54vw;
+    height: 19.54vw;
+    position: absolute;
+    top: 0;
+    left: 15vw;
+}
+
+.image-hd{
+    width: 26.05vw;
+    height: 26.05vw;
+    position: absolute;
+    top: 0;
+    left: 36.5vw;
+    padding-top: 1rem;
+}
+
+.image-pip{
+    width: 26.05vw;
+    height: 26.05vw;
+    border-radius: 15vw;
+}
+
+.vertically-aligned{
+    position: relative;
+    height: 12vw;
+    border-bottom: 1px solid black;
+    /* top:40vw; */
+}
+
+.random{
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+}
+
+.img-top-aligned{
+    top: 0;
+    
+}
+
+.top-aligned{
+    position: absolute;
+    left: 11vw;
+    top: 0;
+    margin-top: 0;
+}
+
+.img-middle-aligned{
+    top: 1vw;
+}
+
+.middle-aligned{
+    position: absolute;
+    left: 11vw;
+    top: 4.5vw;
+    margin-top: 0;
+}
+
+.img-bottom-aligned{
+    bottom: 0vw;
+}
+
+.bottom-aligned{
+    position: absolute;
+    bottom: 0;
+    left: 11vw;
+}
