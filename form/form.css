@@ -1,0 +1,172 @@
+:root{
+    --gray-100: #F3F4F6
+    ;
+}
+
+.forms{
+    margin-left: 3.5rem;
+    /* max-width: 750px; */
+}
+
+.name{
+    display: block;
+    font-size: large;
+    margin: 1rem 0 1rem 0;
+    font-weight: 600;
+}
+
+.input-form{
+    position: relative;
+    max-width: 100vw;
+    /* z-index: -1; */
+}
+
+.input-form label{
+    display: block;
+}
+
+.label-first-name, .label-last-name{
+    margin: 0.5rem 0rem;
+    font-weight: 600;
+
+}
+
+.first-name, .last-name{
+    width: 50vw;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.checkbox-label{
+    position: relative;
+    /* width: max-content; */
+}
+
+.input-checkbox{
+    width: 0.95rem;
+    height: 0.95rem;
+    margin-top: 0.5rem;
+    padding: 0.1rem;
+    
+}
+
+.label-checkbox{
+    font-size: 1.15125rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 1.5rem;
+}
+
+.input-submit{
+    margin-top: 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.2rem;
+    outline: none;
+    background-color: var(--gray-100);
+}
+
+.field-form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10vh;
+    max-width: 100vw;
+    padding-top: 1rem;
+}
+
+.label-fn, .label-mn, .label-ln, .input-fn, .input-mn, .input-ln{
+    position: absolute;
+} 
+
+.label-fn, .label-mn, .label-ln{
+    top: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.input-fn, .input-mn, .input-ln{
+    top: 1.5rem;
+    /* bottom: 0; */
+}
+
+.label-mn{
+    top: 0;
+    left: 12rem;
+
+}
+
+.input-mn{
+    /* top: 1rem; */
+    left: 12rem;
+}
+
+.label-ln{
+    left: 24rem;
+}
+
+.input-ln{
+    left: 24rem;
+}
+
+.forms-name{
+    margin-top: 8rem;
+}
+
+.form-radio{
+    margin-top: 10rem;
+}
+
+.form-dropdown{
+    position: relative;
+    margin-top: 10rem;
+}
+
+/* .country-drop{
+    position: absolute;
+} */
+
+.gender, .country, select{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.gender, .country{
+    font-size: 1.2rem;
+}
+
+select{
+    width: 100%;
+    padding: 0.5em;
+    outline: none;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+
+select option{
+    font-size: 1.2rem;
+}
+
+.text, .short-text{
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.text-textarea{
+    width: 100%;
+    height: 12rem;
+    resize: none;
+}
+
+.short-text-textarea{
+    width: 100%;
+    resize: none;
+}
+
+
+
+
