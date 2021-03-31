@@ -1,0 +1,22 @@
+
+:root{
+    --tag-color: #F59E0B;
+}
+
+.link-styles{
+    margin-left: 3.5rem;
+}
+
+.installation-content{
+    width: calc(100% - 25vw);
+    margin-top: 2rem;
+}
+
+.tag{
+    color: var(--tag-color);
+}
+
+.carbon--installation{
+    height: 6.5vw;
+    padding-bottom: 0;
+}
