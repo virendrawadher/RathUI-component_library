@@ -1,13 +1,3 @@
-@import url("../RathUI-component_library/avatar/avatar.css");
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url("../RathUI-component_library/alert/alert.css");
-@import url("../RathUI-component_library/badge/badge.css");
-@import url("../RathUI-component_library/Button/button.css");
-@import url("../RathUI-component_library/form/form.css");
-@import url("../RathUI-component_library/image/image.css");
-@import url("../RathUI-component_library/input/input.css");
-@import url("../RathUI-component_library/list/list.css");
-@import url("../RathUI-component_library/card/card.css");
 
 :root{
     --yellow-400: #FBBF24;
