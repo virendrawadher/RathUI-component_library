@@ -3,14 +3,6 @@
     margin-left: 3.5rem;
 }
 
-.name{
-    display: block;
-    font-size: large;
-    margin: 1rem 0 1rem 0;
-    font-weight: 600;
-    max-width: fit-content;
-    text-decoration: underline;
-}
 
 .image{
     position: relative;

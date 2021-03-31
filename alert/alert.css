@@ -17,13 +17,6 @@
     width: 100%;
 }
 
-.name{
-    display: block;
-    font-size: large;
-    margin: 1rem 0 1rem 0;
-    font-weight: 600;
-}
-
 .v-alert, .c-alert{
     margin-top: 5rem;
 }
