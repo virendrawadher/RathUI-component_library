@@ -33,6 +33,10 @@
     
 }
 
+.carbon-input{
+    height: 6.5vw;
+}
+
 .basic-input:focus{
     outline: none;
     border: 2px solid var(--primary-color)
