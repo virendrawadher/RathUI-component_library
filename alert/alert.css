@@ -4,7 +4,7 @@
     --secondary-red:#EF4444;
     --primary-green: #6EE7B7;
     --secondary-green:#059669;
-    --primary-blue:#93C5FD;
+    --primary-blue-alert:#93C5FD;
     --secondary-blue:#2563EB;
     --primary-orange: #FFA500;
     --secondary-orange: #ac7431;
@@ -45,7 +45,7 @@
 }
 
 .alert-info{
-    background-color: var(--primary-blue);
+    background-color: var(--primary-blue-alert);
 }
 
 .alert-warning{
