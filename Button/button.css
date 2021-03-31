@@ -20,11 +20,8 @@
 
 }
 
-.name{
-    display: block;
-    font-size: large;
-    margin: 1rem 0 1rem 3.5rem;
-    font-weight: 600;
+.carbon-basic{
+    height: 6.51vw;
 }
 
 /* Simple Button */
